@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Contact from './Contact';
-import { Consumer } from '../contacs';
+import { Consumer } from '../../contacs';
 
 class Contacts extends Component {
   render() {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Consumer } from '../contacs';
+import { Consumer } from '../../contacs';
 
 class Contact extends Component {
   state = {
