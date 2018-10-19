@@ -7,6 +7,7 @@ import About from './components/pages/About';
 import { Provider } from './contacs';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AddContact from './components/contacs/AddContact';
+import EditContact from './components/contacs/EditContact';
 import Test from './components/test/Test';
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Contacts} />
               <Route exact path="/contact/add" component={AddContact} />
+              <Route exact path="/contact/edit/:id" component={EditContact} />
               <Route exact path="/about" component={About} />
               <Route exact path="/test" component={Test} />
             </Switch>
